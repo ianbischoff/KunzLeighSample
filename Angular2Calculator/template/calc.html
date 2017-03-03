@@ -1,0 +1,54 @@
+﻿<div class="container panel panel-default">
+    <div class="panel-default calculator">
+        <div class="row">
+            <div class="col-md-12">
+                <span>{{title}}</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <span id="value-field" class="form-control">{{value}}</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button class="btn btn-calc col-md-3" (click)="setValue('C')">C</button>
+                <button class="btn btn-calc col-md-3" (click)="setValue('%')">%</button>
+                <button class="btn btn-calc col-md-3" (click)="setValue('<')"><<</button>
+                <button class="btn btn-calc col-md-3" (click)="setValue('/')">÷</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button class="btn btn-calc col-md-3" (click)="setValue(7)">7</button>
+                <button class="btn btn-calc col-md-3" (click)="setValue(8)">8</button>
+                <button class="btn btn-calc col-md-3" (click)="setValue(9)">9</button>
+                <button class="btn btn-calc col-md-3" (click)="setValue('*')">x</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button class="btn btn-calc col-md-3" (click)="setValue(4)">4</button>
+                <button class="btn btn-calc col-md-3" (click)="setValue(5)">5</button>
+                <button class="btn btn-calc col-md-3" (click)="setValue(6)">6</button>
+                <button class="btn btn-calc col-md-3" (click)="setValue('-')">-</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button class="btn btn-calc col-md-3" (click)="setValue(1)">1</button>
+                <button class="btn btn-calc col-md-3" (click)="setValue(2)">2</button>
+                <button class="btn btn-calc col-md-3" (click)="setValue(3)">3</button>
+                <button class="btn btn-calc col-md-3" (click)="setValue('+')">+</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button class="btn btn-calc col-md-3" (click)="setValue('+/-')">+/-</button>
+                <button class="btn btn-calc col-md-3" (click)="setValue(0)">0</button>
+                <button class="btn btn-calc col-md-3" (click)="setValue('.')">.</button>
+                <button class="btn btn-calc col-md-3" (click)="setValue('=')">=</button>
+            </div>
+        </div>
+    </div>
+</div>

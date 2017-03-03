@@ -1,0 +1,15 @@
+﻿body {
+    
+}
+
+.calc-button{
+    padding: 3px;
+}
+
+.calculator{
+    max-width: 40%;
+}
+
+#value-field {
+    text-align:right;
+}
